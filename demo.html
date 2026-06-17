@@ -5,214 +5,279 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      /* ==========================
-   LIFE BENEFITS
-========================== */
-
-.moggsLifeBenefits{
-    padding:120px 0;
+        .masterplan {
+  background: #efeddc;
+  padding: 100px 20px;
+  overflow: hidden;
 }
 
-.moggsLifeBenefitsContainer{
-    max-width:1180px;
-    margin:auto;
-    padding:0 30px;
+.masterplan-container {
+  position: relative;
+  max-width: 1200px;
+  height: 900px;
+  margin: auto;
 }
 
-.moggsLifeBenefitsHeading{
-    text-align:center;
-    margin-bottom:70px;
+/* Center */
+
+.center-circle {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  background: #0d2b1f;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
 }
 
-.moggsLifeBenefitsHeading span{
-    font-size:13px;
-    letter-spacing:3px;
-    color:#8C5120;
-    text-transform:uppercase;
-    font-family:"Barlow",sans-serif;
+.center-circle h2 {
+  font-size: 50px;
+  margin: 0;
 }
 
-.moggsLifeBenefitsHeading h2{
-    margin-top:10px;
-    color:#8C5120;
-    font-family:"Gilda Display",serif;
-    font-size:44px;
+.center-circle span {
+  font-size: 26px;
 }
 
-.moggsLifeBenefitsWrapper{
-    border-top:1px solid #e8e2dc;
+/* Rings */
+
+.ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px dashed rgba(0,0,0,.25);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.moggsLifeBenefitItem{
-
-    display:flex;
-    align-items:center;
-    gap:30px;
-
-    padding:35px 0;
-
-    border-bottom:1px solid #e8e2dc;
+.ring-1 {
+  width: 500px;
+  height: 500px;
 }
 
-.moggsLifeBenefitIcon{
-
-    width:70px;
-    height:70px;
-
-    flex-shrink:0;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.ring-2 {
+  width: 630px;
+  height: 630px;
 }
 
-.moggsLifeBenefitIcon img{
-    width:50px;
-    height:50px;
-    object-fit:contain;
+/* Nodes */
+
+.node {
+  width: 82px;
+  height: 82px;
+  background: #0d2b1f;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 20;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.moggsLifeBenefitContent h3{
-    font-family:"Gilda Display",serif;
-    font-size:28px;
-    color:#8C5120;
-    margin-bottom:8px;
+.node img {
+  width: 40px;
 }
 
-.moggsLifeBenefitContent p{
-    font-family:"Barlow",sans-serif;
-    font-size:15px;
-    line-height:1.8;
-    color:#666;
-    max-width:700px;
+/* Position */
+
+.node-1 {
+  top: 220px;
+  left: 330px;
 }
 
-/* Mobile */
+.node-2 {
+  top: 220px;
+  right: 330px;
+}
 
-@media(max-width:768px){
+.node-3 {
+  top: 380px;
+  right: 250px;
+}
 
-    .moggsLifeBenefits{
-        padding:80px 0;
-    }
+.node-4 {
+  bottom: 230px;
+  right: 350px;
+}
 
-    .moggsLifeBenefitsContainer{
-        padding:0 20px;
-    }
+.node-5 {
+  bottom: 230px;
+  left: 350px;
+}
 
-    .moggsLifeBenefitsHeading h2{
-        font-size:30px;
-    }
+.node-6 {
+  top: 380px;
+  left: 250px;
+}
 
-    .moggsLifeBenefitItem{
-        align-items:flex-start;
-        gap:20px;
-    }
+/* Content */
 
-    .moggsLifeBenefitIcon{
-        width:50px;
-        height:50px;
-    }
+.content-box {
+  position: absolute;
+  width: 250px;
+}
 
-    .moggsLifeBenefitIcon img{
-        width:35px;
-        height:35px;
-    }
+.content-box h3 {
+  font-size: 34px;
+  line-height: 1.1;
+  color: #1e2f21;
+  margin-bottom: 10px;
+}
 
-    .moggsLifeBenefitContent h3{
-        font-size:22px;
-    }
+.content-box ul {
+  padding-left: 18px;
+}
 
-    .moggsLifeBenefitContent p{
-        font-size:14px;
-    }
+.content-box li {
+  margin-bottom: 6px;
+  color: #333;
+}
+
+/* Left */
+
+.left.top {
+  top: 80px;
+  left: 0;
+}
+
+.left.middle {
+  top: 340px;
+  left: 0;
+}
+
+.left.bottom {
+  bottom: 40px;
+  left: 40px;
+}
+
+/* Right */
+
+.right.top {
+  top: 80px;
+  right: 0;
+}
+
+.right.middle {
+  top: 340px;
+  right: 0;
+}
+
+.right.bottom {
+  bottom: 60px;
+  right: 40px;
 }
     </style>
 </head>
 <body>
-    <section class="moggsLifeBenefits">
+    <section class="masterplan">
+  <div class="masterplan-container">
 
-    <div class="moggsLifeBenefitsContainer">
-
-        <div class="moggsLifeBenefitsHeading">
-
-            <span>WHY PEOPLE CHOOSE SADHVANA</span>
-
-            <h2>
-                Designed For Better Living
-            </h2>
-
-        </div>
-
-        <div class="moggsLifeBenefitsWrapper">
-
-            <div class="moggsLifeBenefitItem">
-
-                <div class="moggsLifeBenefitIcon">
-                    <img src="./Icons/health.svg" alt="">
-                </div>
-
-                <div class="moggsLifeBenefitContent">
-                    <h3>Reviving Urban Health</h3>
-                    <p>
-                        Reconnect with nature and enjoy a healthier lifestyle
-                        surrounded by greenery and fresh air.
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="moggsLifeBenefitItem">
-
-                <div class="moggsLifeBenefitIcon">
-                    <img src="./Icons/stress-free.svg" alt="">
-                </div>
-
-                <div class="moggsLifeBenefitContent">
-                    <h3>Stress-Free Living</h3>
-                    <p>
-                        Escape the city's rush and experience peace through
-                        wellness spaces and outdoor activities.
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="moggsLifeBenefitItem">
-
-                <div class="moggsLifeBenefitIcon">
-                    <img src="./Icons/technology.svg" alt="">
-                </div>
-
-                <div class="moggsLifeBenefitContent">
-                    <h3>Technology Enabled</h3>
-                    <p>
-                        Stay connected with your farmland through
-                        professional management and regular updates.
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="moggsLifeBenefitItem">
-
-                <div class="moggsLifeBenefitIcon">
-                    <img src="./Icons/management.svg" alt="">
-                </div>
-
-                <div class="moggsLifeBenefitContent">
-                    <h3>Managed Ownership</h3>
-                    <p>
-                        From maintenance to legal support,
-                        we simplify every aspect of farmland ownership.
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
+    <!-- Center Circle -->
+    <div class="center-circle">
+      <h2>Sadhvana</h2>
+      <span>Farms</span>
     </div>
 
+    <!-- Rings -->
+    <div class="ring ring-1"></div>
+    <div class="ring ring-2"></div>
+
+    <!-- Icons -->
+    <div class="node node-1">
+      <img src="icons/staff.png" alt="">
+    </div>
+
+    <div class="node node-2">
+      <img src="icons/adventure.png" alt="">
+    </div>
+
+    <div class="node node-3">
+      <img src="icons/farm.png" alt="">
+    </div>
+
+    <div class="node node-4">
+      <img src="icons/wild.png" alt="">
+    </div>
+
+    <div class="node node-5">
+      <img src="icons/water.png" alt="">
+    </div>
+
+    <div class="node node-6">
+      <img src="icons/hospitality.png" alt="">
+    </div>
+
+    <!-- Left Content -->
+
+    <div class="content-box left top">
+      <h3>Residential Staff Space</h3>
+      <ul>
+        <li>Farmer Quarters</li>
+        <li>Security Quarters</li>
+        <li>Parking Area</li>
+        <li>Storage Area</li>
+      </ul>
+    </div>
+
+    <div class="content-box left middle">
+      <h3>Retreat & Hospitality</h3>
+      <ul>
+        <li>Club House</li>
+        <li>Meditation Area</li>
+        <li>Outdoor Sitting</li>
+        <li>24/7 Kitchen</li>
+      </ul>
+    </div>
+
+    <div class="content-box left bottom">
+      <h3>Water Zone</h3>
+      <ul>
+        <li>Borewells</li>
+        <li>Water Harvesting</li>
+        <li>Motor House</li>
+      </ul>
+    </div>
+
+    <!-- Right Content -->
+
+    <div class="content-box right top">
+      <h3>Adventure & Nature</h3>
+      <ul>
+        <li>Trekking</li>
+        <li>Camping</li>
+        <li>Kids Play Area</li>
+      </ul>
+    </div>
+
+    <div class="content-box right middle">
+      <h3>Farm Plots</h3>
+      <ul>
+        <li>Cottages</li>
+        <li>Forest Garden</li>
+        <li>Outdoor Sitting</li>
+      </ul>
+    </div>
+
+    <div class="content-box right bottom">
+      <h3>Wild Zone</h3>
+      <ul>
+        <li>Living Fence</li>
+        <li>Nature Trail</li>
+        <li>Cycling</li>
+      </ul>
+    </div>
+
+  </div>
 </section>
 </body>
 </html>

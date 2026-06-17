@@ -9,7 +9,7 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
   font-family: "Montserrat", sans-serif;
   /* background: linear-gradient(#F8EAD6, #F9E3C6); */
   background-color: #fff;
@@ -25,18 +25,18 @@ body {
   font-size: 28px;
   font-weight: 400;
   line-height: 1.3;
-  color: #103C3B;
+  color: #103c3b;
   width: 100%;
-  text-align: center !important; 
+  text-align: center !important;
 }
 .sectionsub-title {
   font-family: "Gilda Display", serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 1.3;
-  color: #103C3B;
+  color: #103c3b;
   width: 100%;
-  text-align: left !important; 
+  text-align: left !important;
 }
 /* Hero Section  */
 
@@ -100,7 +100,7 @@ body {
   color: #666666;
 }
 .about-title {
-  color: #103C3B;
+  color: #103c3b;
   text-align: left !important;
 }
 .about-logo {
@@ -133,7 +133,7 @@ body {
   text-align: center;
   gap: 4px;
   padding: 10px 43px;
-  background-color: #103C3B;
+  background-color: #103c3b;
   border: 1px solid #eeeeee;
 }
 .about-points h3 {
@@ -401,6 +401,7 @@ body {
   position: relative;
   overflow: hidden;
   min-height: 200px;
+  height: 260px;
 }
 
 .gallery-item img {
@@ -529,7 +530,7 @@ body {
 
 .project-sections {
   width: 100%;
-  padding: 80px 0;
+  padding: 60px 0;
   position: relative;
 }
 .project-section-wrapper {
@@ -544,7 +545,7 @@ body {
   text-align: center;
 }
 h2.project-title {
-  color: #103C3B;
+  color: #103c3b;
 }
 .project-content-wrapper {
   display: flex;
@@ -589,7 +590,7 @@ h2.project-title {
   line-height: 56px;
   letter-spacing: 14%;
   text-transform: uppercase;
-  color: #103C3B;
+  color: #103c3b;
   max-width: 550px;
 }
 .project-card-para {
@@ -598,7 +599,7 @@ h2.project-title {
   font-weight: 400;
   line-height: 22px;
   max-width: 550px;
-  color: #103C3B;
+  color: #103c3b;
 }
 
 /* ================================
@@ -770,7 +771,7 @@ h2.project-title {
    LEFT CONTENT
 =========================== */
 .outdoor-content {
-  color: #103C3B;
+  color: #103c3b;
   padding: 70px 0 70px 100px;
   display: flex;
   flex-direction: column;
@@ -780,7 +781,7 @@ h2.project-title {
 
 .outdoor-content h2 {
   margin-bottom: 5px;
-  color: #103C3B;
+  color: #103c3b;
   text-align: left !important;
 }
 
@@ -958,49 +959,49 @@ h2.project-title {
     min-height: 220px;
   }
 }
-.outdoor-list{
-    list-style:none;
-    padding:0;
-    margin-top:30px;
+.outdoor-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
 
-    display:grid;
-    grid-template-columns:repeat(2, 1fr);
-    column-gap:0px;
-    row-gap:8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0px;
+  row-gap: 8px;
 
-    max-width:550px;
+  max-width: 550px;
 }
 
-.outdoor-list li{
-    position:relative;
-    padding-left:22px;
+.outdoor-list li {
+  position: relative;
+  padding-left: 22px;
 
-    font-family:"Barlow", sans-serif;
-    font-size:18px;
-    color:#666666;
-    line-height:1.5;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  color: #666666;
+  line-height: 1.5;
 }
 
-.outdoor-list li::before{
-    content:"";
-    position:absolute;
-    left:0;
-    top:12px;
+.outdoor-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12px;
 
-    width:7px;
-    height:7px;
+  width: 7px;
+  height: 7px;
 
-    border-radius:50%;
-    background:#103C3B;
+  border-radius: 50%;
+  background: #103c3b;
 }
-@media (max-width:768px){
-
-    .outdoor-list{
-        grid-template-columns:1fr;
-        gap:16px;
-        max-width:100%;
-    }
-
+@media (max-width: 768px) {
+  .outdoor-list {
+    grid-template-columns: 1fr;
+    gap: 0px;
+    row-gap: 0px;
+    margin-top: 0px;
+    max-width: 100%;
+  }
 }
 /* ===========================
    SPORTS AREA SECTION
@@ -1026,7 +1027,7 @@ h2.project-title {
 }
 
 .sports-area-header h2 {
-  color: #103C3B;
+  color: #103c3b;
   text-align: center !important;
 }
 
@@ -1136,7 +1137,7 @@ h2.project-title {
    VERTICAL STRAP
 =========================== */
 .sports-strap {
-  background: #103C3B;
+  background: #103c3b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1703,7 +1704,7 @@ h2.project-title {
 .location-advantages-section {
   width: 100%;
   /* background: #f5ead9; */
-  padding: 100px 0;
+  padding: 50px 0;
   position: relative;
   overflow: hidden;
 }
@@ -1729,7 +1730,7 @@ h2.project-title {
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 1.2;
-  color: #103C3B;
+  color: #103c3b;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   text-align: center !important;
@@ -1751,7 +1752,7 @@ h2.project-title {
 =========================== */
 .location-map-wrap {
   width: 100%;
-  border: 2px solid #103C3B;
+  border: 2px solid #103c3b;
   border-radius: 8px;
   overflow: hidden;
   background: #fff;
@@ -1776,7 +1777,7 @@ h2.project-title {
   font-family: "Barlow", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: #103C3B;
+  color: #103c3b;
   /* margin-bottom: 22px; */
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(168, 106, 52, 0.25);
@@ -1808,7 +1809,7 @@ h2.project-title {
   font-family: "Barlow", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #103C3B;
+  color: #103c3b;
   line-height: 1.6;
 }
 
@@ -1832,7 +1833,7 @@ h2.project-title {
 =========================== */
 @media (max-width: 1200px) {
   .location-advantages-section {
-    padding: 90px 0;
+    padding: 60px 0;
   }
 
   .location-advantages-container {
@@ -1946,7 +1947,7 @@ h2.project-title {
     align-items: flex-start;
     flex-direction: row;
     gap: 12px;
-    padding: 13px 0;
+    padding: 7px 0;
   }
 
   .location-place {
@@ -1968,26 +1969,26 @@ h2.project-title {
 
 .masterplan-section {
   width: 100%;
-  padding: 90px 0;
+  padding: 60px 0;
 }
 .masterplan-section-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 .masterplan-title-wrapper {
   width: 100%;
   text-align: center;
 }
 .masterplan-title {
-  color: #103C3B;
+  color: #103c3b;
   text-align: center !important;
 }
 .masterplan-contetn-wrapper {
-  width: 100%;
-  max-height: 761px;
+  width: 980px;
+  max-height: 550px;
 }
 .masterplan-image {
   width: 100%;
@@ -2022,7 +2023,7 @@ h2.project-title {
   font-size: 34px;
   font-weight: 400;
   letter-spacing: 5px;
-  color: #103C3B;
+  color: #103c3b;
   text-transform: uppercase;
   font-family: serif;
   text-align: center !important;
@@ -2646,13 +2647,6 @@ h2.project-title {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .hero-section {
-    background-image: url(./Images/ROE-Mobile.png);
-    height: 70vh;
-  }
-}
-
 /* ==================================
    MOGGS PREMIUM NAVIGATION
 ================================== */
@@ -2704,14 +2698,14 @@ h2.project-title {
   font-family: "Barlow", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  color: #103C3B;
+  color: #103c3b;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   transition: 0.3s;
 }
 
 .moggsEstateDesktopNav a:hover {
-  color: #103C3B;
+  color: #103c3b;
 }
 
 /* CTA */
@@ -2769,7 +2763,7 @@ h2.project-title {
   width: 28px;
   height: 2px;
 
-  background: #103C3B;
+  background: #103c3b;
 
   display: block;
 
@@ -2813,7 +2807,7 @@ h2.project-title {
 }
 
 .moggsEstateDrawerHeader h3 {
-  color: #103C3B;
+  color: #103c3b;
   font-family: "Gilda Display", serif;
   font-size: 28px;
 }
@@ -2823,7 +2817,7 @@ h2.project-title {
   background: transparent;
   cursor: pointer;
   font-size: 24px;
-  color: #103C3B;
+  color: #103c3b;
 }
 
 .moggsEstateDrawerNav {
@@ -2850,7 +2844,7 @@ h2.project-title {
 .moggsEstateDrawerCTA {
   margin-top: 25px;
 
-  background: #103C3B;
+  background: #103c3b;
 
   color: #fff !important;
 
@@ -2919,7 +2913,7 @@ h2.project-title {
 ========================================== */
 
 .sadhvana-why-section {
-  padding: 80px 0;
+  padding: 60px 0;
   background: #fff;
 }
 
@@ -2942,7 +2936,7 @@ h2.project-title {
   font-family: "Barlow", sans-serif;
   font-size: 13px;
   letter-spacing: 3px;
-  color: #103C3B;
+  color: #103c3b;
   text-transform: uppercase;
 }
 
@@ -2951,7 +2945,7 @@ h2.project-title {
   font-size: 28px;
   font-weight: 400;
   line-height: 1.3;
-  color: #103C3B;
+  color: #103c3b;
 }
 
 .sadhvana-why-grid {
@@ -2973,7 +2967,7 @@ h2.project-title {
 .sadhvana-why-card:hover {
   transform: translateY(-6px);
 
-  border-color: #103C3B;
+  border-color: #103c3b;
 
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
 }
@@ -2983,7 +2977,7 @@ h2.project-title {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
-  color: #103C3B;
+  color: #103c3b;
 
   /* margin-bottom: 14px; */
 }
@@ -2992,7 +2986,7 @@ h2.project-title {
   font-family: "Barlow", sans-serif;
   font-size: 12px;
   line-height: 1.8;
-  color: #103C3B;
+  color: #103c3b;
 }
 
 /* ======================
@@ -3015,7 +3009,7 @@ h2.project-title {
 
 @media (max-width: 768px) {
   .sadhvana-why-section {
-    padding: 80px 0;
+    padding: 20px 0;
   }
 
   .sadhvana-why-container {
@@ -3047,6 +3041,9 @@ h2.project-title {
     font-size: 15px;
     line-height: 1.7;
   }
+  .sadhvana-why-div-wrapper {
+    justify-content: left !important;
+  }
 }
 
 /* ==========================
@@ -3054,7 +3051,7 @@ h2.project-title {
 ========================== */
 
 .sadhvanaInvestmentZone {
-  padding: 80px 0;
+  padding: 60px 0;
   background: #fff;
 }
 
@@ -3079,7 +3076,7 @@ h2.project-title {
 
   letter-spacing: 3px;
 
-  color: #103C3B;
+  color: #103c3b;
 
   margin-bottom: 12px;
 }
@@ -3093,7 +3090,7 @@ h2.project-title {
 
   line-height: 1.25;
 
-  color: #103C3B;
+  color: #103c3b;
 
   margin-bottom: 15px;
 }
@@ -3145,7 +3142,7 @@ h2.project-title {
 
   border-radius: 50%;
 
-  background: #103C3B;
+  background: #103c3b;
 }
 
 /* Right Side */
@@ -3157,9 +3154,10 @@ h2.project-title {
   width: 535px;
   height: 415px;
 }
-.sadhuvanainvestment-image{
+.sadhuvanainvestment-image {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .sadhvanaStatCard {
   background: #ffffffd2;
@@ -3184,7 +3182,7 @@ h2.project-title {
 
   font-size: 22px;
 
-  color: #103C3B;
+  color: #103c3b;
 
   margin-bottom: 10px;
 }
@@ -3252,19 +3250,160 @@ h2.project-title {
   }
 }
 
-
-.sadhvana-why-div-wrapper{
+.sadhvana-why-div-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
 }
-.sadhvana-icon{
+.sadhvana-icon {
   height: 40px;
   width: 40px;
 }
+/* ==========================
+   TABLET RESPONSIVE
+========================== */
+@media (max-width: 991px) {
+  .sadhvanaInvestmentZone {
+    padding: 70px 0;
+  }
 
+  .sadhvanaInvestmentContainer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 0 30px;
+  }
+
+  .sadhvanaInvestmentContent {
+    order: 2;
+  }
+
+  .sadhvanaInvestmentStats {
+    order: 1;
+    width: 100%;
+    height: 450px;
+  }
+
+  .sadhvanaInvestmentTitle {
+    font-size: 36px;
+    line-height: 1.3;
+  }
+
+  .sadhvanaInvestmentIntro {
+    font-size: 14px;
+    line-height: 1.8;
+    max-width: 100%;
+  }
+
+  .sadhvanaInvestmentItem {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .sadhvanaInvestmentTag {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+}
+
+/* ==========================
+   MOBILE RESPONSIVE
+========================== */
+@media (max-width: 767px) {
+  .sadhvanaInvestmentZone {
+    padding: 60px 0;
+  }
+
+  .sadhvanaInvestmentContainer {
+    padding: 0 20px;
+    gap: 30px;
+  }
+
+  .sadhvanaInvestmentStats {
+    width: 100%;
+    height: 300px;
+  }
+
+  .sadhvanaInvestmentTitle {
+    font-size: 28px;
+    line-height: 1.35;
+    margin-bottom: 15px;
+  }
+
+  .sadhvanaInvestmentIntro {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+
+  .sadhvanaInvestmentList {
+    gap: 14px;
+  }
+
+  .sadhvanaInvestmentItem {
+    font-size: 14px;
+    line-height: 1.7;
+    padding-left: 22px;
+  }
+
+  .sadhvanaInvestmentItem::before {
+    width: 7px;
+    height: 7px;
+    top: 9px;
+  }
+
+  .sadhvanaInvestmentTag {
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  .sadhvana-why-div-wrapper {
+    gap: 0.75rem;
+  }
+
+  .sadhvana-icon {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+/* ==========================
+   SMALL MOBILE
+========================== */
+@media (max-width: 480px) {
+  .sadhvanaInvestmentContainer {
+    padding: 0 16px;
+  }
+
+  .sadhvanaInvestmentStats {
+    height: 240px;
+  }
+
+  .sadhvanaInvestmentTitle {
+    font-size: 24px;
+  }
+
+  .sadhvanaInvestmentIntro {
+    font-size: 13px;
+  }
+
+  .sadhvanaInvestmentItem {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .sadhvanaInvestmentTag {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+  }
+
+  .sadhvana-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
 /* ===================================
    MOGGS HERO SLIDER
 =================================== */
@@ -3314,7 +3453,7 @@ h2.project-title {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,.25);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 /* Arrows */
@@ -3327,17 +3466,17 @@ h2.project-title {
   height: 52px;
   border: none;
   border-radius: 50%;
-  background: rgba(255,255,255,.15);
+  background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
   color: #fff;
   font-size: 22px;
   cursor: pointer;
   z-index: 10;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .moggsHeroArrow:hover {
-  background: rgba(255,255,255,.3);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .moggsHeroPrev {
@@ -3364,9 +3503,9 @@ h2.project-title {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: rgba(255,255,255,.4);
+  background: rgba(255, 255, 255, 0.4);
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .moggsHeroDot.active {
@@ -3377,7 +3516,6 @@ h2.project-title {
 /* Tablet */
 
 @media (max-width: 992px) {
-
   .hero-section {
     height: 80vh;
   }
@@ -3392,7 +3530,6 @@ h2.project-title {
 /* Mobile */
 
 @media (max-width: 768px) {
-
   .hero-section {
     height: 70vh;
   }
@@ -3424,7 +3561,6 @@ h2.project-title {
 /* Small Mobile */
 
 @media (max-width: 480px) {
-
   .hero-section {
     height: 60vh;
     min-height: 500px;
@@ -3436,122 +3572,417 @@ h2.project-title {
   }
 }
 
-
-
 /* ===========================
    SADHVANA PREMIUM GALLERY
 =========================== */
 
-.sadhvanaPremiumGallerySection{
-    padding:90px 0;
-    overflow:hidden;
+.sadhvanaPremiumGallerySection {
+  padding: 60px 0 90px 0;
+  overflow: hidden;
 }
 
-.sadhvanaPremiumGalleryHeader{
-    text-align:center;
-    margin-bottom:40px;
+.sadhvanaPremiumGalleryHeader {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.sadhvanaPremiumGalleryTitle{
-    color:#103C3B;
-    text-align:center !important;
+.sadhvanaPremiumGalleryTitle {
+  color: #103c3b;
+  text-align: center !important;
 }
 
-.sadhvanaPremiumGallerySubTitle{
-    color:#666;
-    margin-top:10px;
-    font-size:14px;
+.sadhvanaPremiumGallerySubTitle {
+  color: #666;
+  margin-top: 10px;
+  font-size: 14px;
 }
 
-.sadhvanaPremiumGallerySlider{
-    position:relative;
-    max-width:1300px;
-    margin:auto;
-    display:flex;
-    align-items:center;
-    gap:20px;
+.sadhvanaPremiumGallerySlider {
+  position: relative;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.sadhvanaPremiumGalleryViewport{
-    overflow:hidden;
-    width:100%;
+.sadhvanaPremiumGalleryViewport {
+  overflow: hidden;
+  width: 100%;
 }
 
-.sadhvanaPremiumGalleryTrack{
-    display:flex;
-    gap:20px;
-    transition:transform .6s ease;
+.sadhvanaPremiumGalleryTrack {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.6s ease;
 }
 
-.sadhvanaPremiumGalleryCard{
-    flex:0 0 calc(33.333% - 14px);
-    position:relative;
-    border-radius:16px;
-    overflow:hidden;
-    height:320px;
+.sadhvanaPremiumGalleryCard {
+  flex: 0 0 calc(33.333% - 14px);
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 320px;
 }
 
-.sadhvanaPremiumGalleryCard img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    transition:transform .6s ease;
+.sadhvanaPremiumGalleryCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
 }
 
-.sadhvanaPremiumGalleryCard:hover img{
-    transform:scale(1.08);
+.sadhvanaPremiumGalleryCard:hover img {
+  transform: scale(1.08);
 }
 
-.sadhvanaPremiumGalleryOverlay{
-    position:absolute;
-    left:0;
-    right:0;
-    bottom:0;
-    padding:22px;
-    background:linear-gradient(
-        transparent,
-        rgba(0,0,0,.75)
-    );
+.sadhvanaPremiumGalleryOverlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 22px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
 }
 
-.sadhvanaPremiumGalleryOverlay h3{
-    color:#fff;
-    font-size:18px;
-    font-weight:500;
+.sadhvanaPremiumGalleryOverlay h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.sadhvanaPremiumGalleryArrow{
-    width:50px;
-    height:50px;
-    border:none;
-    cursor:pointer;
-    border-radius:50%;
-    background:#103C3B;
-    color:#fff;
-    font-size:20px;
-    flex-shrink:0;
+.sadhvanaPremiumGalleryArrow {
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #103c3b;
+  color: #fff;
+  font-size: 20px;
+  flex-shrink: 0;
 }
 
 /* Tablet */
 
-@media(max-width:991px){
-
-    .sadhvanaPremiumGalleryCard{
-        flex:0 0 calc(50% - 10px);
-        height:280px;
-    }
+@media (max-width: 991px) {
+  .sadhvanaPremiumGalleryCard {
+    flex: 0 0 calc(50% - 10px);
+    height: 280px;
+  }
 }
 
 /* Mobile */
 
-@media(max-width:767px){
+@media (max-width: 767px) {
+  .sadhvanaPremiumGalleryArrow {
+    display: none;
+  }
 
-    .sadhvanaPremiumGalleryArrow{
-        display:none;
-    }
+  .sadhvanaPremiumGalleryCard {
+    flex: 0 0 100%;
+    height: 260px;
+  }
+}
 
-    .sadhvanaPremiumGalleryCard{
-        flex:0 0 100%;
-        height:260px;
-    }
+.masterplan {
+  background: #fff;
+  padding: 40px 20px;
+  overflow: hidden;
+}
+
+.masterplan-container {
+  position: relative;
+  max-width: 1200px;
+  height: 900px;
+  margin: auto;
+}
+
+/* Center */
+
+.center-circle {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  background: #103c3b;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+}
+
+.center-circle h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.center-circle span {
+  font-size: 26px;
+}
+
+/* Rings */
+
+.ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px dashed rgba(0, 0, 0, 0.25);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ring-1 {
+  width: 500px;
+  height: 500px;
+}
+
+.ring-2 {
+  width: 630px;
+  height: 630px;
+}
+
+/* Nodes */
+
+.node {
+  width: 82px;
+  height: 82px;
+  background: #103c3b;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 20;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.node img {
+  width: 40px;
+}
+
+/* Position */
+
+.node-1 {
+  top: 220px;
+  left: 330px;
+}
+
+.node-2 {
+  top: 220px;
+  right: 330px;
+}
+
+.node-3 {
+  top: 380px;
+  right: 250px;
+}
+
+.node-4 {
+  bottom: 230px;
+  right: 350px;
+}
+
+.node-5 {
+  bottom: 230px;
+  left: 350px;
+}
+
+.node-6 {
+  top: 380px;
+  left: 250px;
+}
+
+/* Content */
+
+.content-box {
+  position: absolute;
+  width: 250px;
+}
+
+.content-box h3 {
+  font-size: 24px;
+  line-height: 1.1;
+  color: #103c3b;
+  margin-bottom: 10px;
+  font-family: "Gilda Display", serif;
+}
+
+.content-box ul {
+  padding-left: 18px;
+}
+
+.content-box li {
+  margin-bottom: 6px;
+  color: #103c3b;
+}
+
+/* Left */
+
+.left.top {
+  top: 80px;
+  left: 0;
+}
+
+.left.middle {
+  top: 340px;
+  left: 0;
+}
+
+.left.bottom {
+  bottom: 50px;
+  left: 40px;
+}
+
+/* Right */
+
+.right.top {
+  top: 80px;
+  right: -50px;
+}
+
+.right.middle {
+  top: 340px;
+  right: -50px;
+}
+
+.right.bottom {
+  bottom: 100px;
+  right: -20px;
+}
+
+.sadhwana-logo {
+  height: 90px;
+  width: 200px;
+}
+
+/* ==========================
+   TABLET
+========================== */
+
+@media (max-width: 1024px) {
+  .masterplan-container {
+    height: 850px;
+  }
+
+  .center-circle {
+    width: 200px;
+    height: 200px;
+  }
+
+  .center-circle h2 {
+    font-size: 42px;
+  }
+
+  .center-circle span {
+    font-size: 22px;
+  }
+
+  .ring-1 {
+    width: 420px;
+    height: 420px;
+  }
+
+  .ring-2 {
+    width: 540px;
+    height: 540px;
+  }
+
+  .node {
+    width: 70px;
+    height: 70px;
+  }
+
+  .node img {
+    width: 32px;
+  }
+
+  .node-1 {
+    top: 240px;
+    left: 260px;
+  }
+
+  .node-2 {
+    top: 240px;
+    right: 260px;
+  }
+
+  .node-3 {
+    top: 390px;
+    right: 180px;
+  }
+
+  .node-4 {
+    bottom: 220px;
+    right: 270px;
+  }
+
+  .node-5 {
+    bottom: 220px;
+    left: 270px;
+  }
+
+  .node-6 {
+    top: 390px;
+    left: 180px;
+  }
+
+  .content-box {
+    width: 200px;
+  }
+
+  .content-box h3 {
+    font-size: 24px;
+  }
+
+  .content-box li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .masterplan-contetn-wrapper {
+    padding: 0 3rem;
+  }
+  .masterplan-section {
+    padding: 0px;
+  }
+  .sadhvanaPremiumGallerySection {
+    padding: 30px 0 90px 0;
+  }
+  .center-circle {
+    height: 0;
+    width: 0;
+  }
+  .sadhwana-logo {
+    height: 0;
+    width: 0;
+  }
+  .node {
+    display: none;
+  }
+  .ring {
+    width: 0;
+    height: 0;
+  }
+  .left.bottom {
+    left: 0;
+  }
+  .right.bottom {
+    right: -60px;
+  }
+  .masterplan-container {
+    height: 820px;
+  }
+  /* .hero-section {
+    background-image: url(./Images/ROE-Mobile.png);
+    height: 70vh;
+  } */
 }

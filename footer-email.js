@@ -21,7 +21,7 @@
         submitBtn.innerHTML = "SENDING...";
 
         try {
-            const response = await fetch("https://emailjsfuntions-428145106157.asia-south1.run.app/tula-footer-form", {
+            const response = await fetch("https://emailjsfuntions-428145106157.asia-south1.run.app/sadhvana-footer-form", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(payload)

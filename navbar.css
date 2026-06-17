@@ -775,12 +775,25 @@ footer * {
   /* width: 350px; */
   height: 180px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .footer-logo-img {
-  height: 120px;
-  width: 200px;
+  height: 70px;
+  width: 180px;
+}
+.footer-logo-subtext{
+  font-size: 0.75rem;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.4;
+}
+.footer-logo-subtext a{
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
 }
 
 .logo-icon {
@@ -837,7 +850,7 @@ footer * {
   color: var(--white-60);
 }
 .footer-contact-item.phone {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--white);
   letter-spacing: 0.5px;
@@ -941,8 +954,8 @@ footer * {
 
 .btn-get-in-touch {
   background: var(--white);
-  color: var(--brown-dark);
-  border: none;
+  color: #103C3B;
+  border: 1px solid #fff;
   padding: 11px 24px;
   font-family: "Raleway", sans-serif;
   font-size: 11px;
@@ -956,7 +969,8 @@ footer * {
     transform 0.15s;
 }
 .btn-get-in-touch:hover {
-  background: var(--gold);
+  background: #103C3B;
+  border: 1px solid #fff;
   color: var(--white);
   transform: translateY(-1px);
 }
@@ -978,7 +992,7 @@ footer * {
   display: inline-flex;
 }
 .social-icons a:hover {
-  color: var(--gold);
+  color: #fff;
   transform: translateY(-2px);
 }
 .social-icons svg {
@@ -1291,4 +1305,34 @@ footer * {
     .sadhvanaPhoneRow{
         grid-template-columns:90px 1fr;
     }
+}
+
+
+.moggsEstateNavWrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+
+    transition:
+        transform 0.35s ease,
+        background 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.moggsEstateNavWrap.nav-hidden {
+    transform: translateY(-100%);
+}
+
+.moggsEstateNavWrap.nav-visible {
+    transform: translateY(0);
+}
+
+/* Optional Professional Effect */
+
+.moggsEstateNavWrap.scrolled {
+    /* background: rgba(255,255,255,0.95); */
+    /* backdrop-filter: blur(16px); */
+    /* box-shadow: 0 10px 30px rgba(0,0,0,0.08); */
 }
