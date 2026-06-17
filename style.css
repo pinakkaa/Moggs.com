@@ -2010,8 +2010,14 @@ h2.project-title {
 .masterplan-image {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
-
+.master-desk{
+  display: block;
+}
+.master-mobile{
+  display: none;
+}
 /* =========================
    LUXORA GALLERY SECTION
 ========================= */
@@ -4002,4 +4008,10 @@ h2.project-title {
     background-image: url(./Images/ROE-Mobile.png);
     height: 70vh;
   } */
+   .master-desk{
+    display: none;    
+   }
+   .master-mobile{
+    display: block;
+   }
 }
