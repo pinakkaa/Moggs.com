@@ -794,6 +794,7 @@ footer * {
   font-size: 0.8rem;
   color: #fff;
   text-align: center;
+  text-decoration: none;
 }
 
 .logo-icon {
@@ -848,6 +849,7 @@ footer * {
   margin-bottom: 12px;
   font-size: 13px;
   color: var(--white-60);
+  text-decoration: none;
 }
 .footer-contact-item.phone {
   font-size: 16px;
@@ -868,10 +870,10 @@ footer * {
   flex-shrink: 0;
 }
 .email-underline {
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-offset: 3px;
   text-decoration-color: var(--white-30);
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--white);
 }
 
